@@ -33,7 +33,7 @@ public class UserDao
 	   return repo.findByPhone(phone, password);
    }
    
-   public User verifyByEmail(String email,String password)
+   public User verifyByUserEmail(String email,String password)
    {
 	   return repo.findByEmail(email, password);
    }
